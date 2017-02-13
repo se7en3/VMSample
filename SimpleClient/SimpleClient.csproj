@@ -110,8 +110,8 @@
     <Reference Include="System.Xml">
       <Name>System.XML</Name>
     </Reference>
-    <Reference Include="Vim25Service">
-      <HintPath>..\..\..\..\..\lib\Vim25Service.dll</HintPath>
+    <Reference Include="VimService25">
+      <HintPath>..\..\..\..\..\lib\VimService25.dll</HintPath>
     </Reference>
     <Reference Include="VimService25.XmlSerializers">
       <HintPath>..\..\..\..\..\lib\VimService25.XmlSerializers.dll</HintPath>

@@ -7,6 +7,7 @@ using System.Security.Cryptography.X509Certificates;
 using System.Xml;
 using Microsoft.Web.Services3.Design;
 using Vim25Api;
+
 namespace AppUtil
 {
 
@@ -259,8 +260,7 @@ namespace AppUtil
             Policy policySAML = new Policy();
             policySAML.Assertions.Add(customSecurityAssertion);
 
-            // Setting policy of the service
-            _service.SetPolicy(policySAML);
+           
 
             _sic = _service.RetrieveServiceContent(_svcRef);
 

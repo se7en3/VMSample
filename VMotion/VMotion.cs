@@ -1,7 +1,6 @@
 using System;
 using AppUtil;
 using Vim25Api;
-using vmware.vim25;
 
 namespace VMotion
 {

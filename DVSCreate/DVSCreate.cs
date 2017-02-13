@@ -162,7 +162,7 @@ namespace DVSCreate
         private static DistributedVirtualSwitchProductSpec GetDVSProductSpec(string version)
         {
             DistributedVirtualSwitchProductSpec[] dvsProdSpec = cb.getConnection()._service.
-                QueryAvailableDvsSpec(cb.getConnection()._sic.dvSwitchManager);
+                QueryAvailableDvsSpec(cb.getConnection()._sic.dvSwitchManager,true,true);
             DistributedVirtualSwitchProductSpec dvsSpec = null;
             if (version != null)
             {
